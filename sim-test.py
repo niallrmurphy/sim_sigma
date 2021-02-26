@@ -181,7 +181,7 @@ class TestSimMethods(unittest.TestCase):
     self.assertGreater(shapiro(mydata3).pvalue, 0.05)
 
   def test_exponential_longchain_dependent(self):
-    """A non-normally distributed system in a chain is non-normally distributed at root."""
+    """An exponential system in a chain is non-normally distributed at root."""
     self.ms.add_serial_dependency(self.ms2)
     self.ms2.add_serial_dependency(self.ms5)
     self.ms5.add_serial_dependency(self.ms3)
