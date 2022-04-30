@@ -116,7 +116,7 @@ class macroservice:
 
 def main():
   ms = macroservice(20, 0.3, 3, 10)
-  #ms.plot()
+  ms.plot()
   ms.run()
 
 if __name__ == "__main__":
