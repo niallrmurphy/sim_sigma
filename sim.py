@@ -92,7 +92,7 @@ class macroservice:
     #self.graph = networkx.generators.random_graphs.connected_watts_strogatz_graph(
     self.until = until
     # Create the connected graph, supposed to roughly correspond to 'real' systems
-    self.graph = networkx.generators.random_graphs.dual_barabasi_albert_graph(
+    self.graph = nx.generators.random_graphs.dual_barabasi_albert_graph(
       node_size, k, 1, probability
     )
     # Create the distributed system microservices. 1:1 mapping with graph nodes.
