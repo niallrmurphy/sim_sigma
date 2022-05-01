@@ -27,3 +27,7 @@ To run the simulaltion:
 Using the `Makefile` you can also run this with:
 * `make run`
 
+You can run the tests the same way
+* `python3 sim-test.py`
+or
+* `make tests`
