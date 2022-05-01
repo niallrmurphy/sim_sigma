@@ -7,7 +7,7 @@ System Prereqs
 * pkg-config
 * libcairo2-dev
 
-If you want to visualize the simualtion via matplotlib you'll also need to install the python-tk version that corresponds with your installed version of python.
+If you want to visualize the simulation via matplotlib you'll also need to install the python-tk version that corresponds with your installed version of python.
 * python3.8-tk
 
 If you're on ubuntu 20.04, you can install these with this command:
